@@ -1,0 +1,86 @@
+/* StudentRecords.css */
+.student-records-container {
+    margin-top: 20px;
+}
+
+.student-records-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.student-records-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.student-records-table th,
+.student-records-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.student-records-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.delete-btn,
+.edit-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: .31rem;
+}
+
+.delete-btn:hover,
+.edit-btn:hover {
+    background-color: #c82333;
+}
+
+/* EditRecordForm CSS */
+
+.edit-record-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.edit-record-form h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.edit-record-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.edit-record-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.edit-record-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-record-form button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,49 @@
+/* Dashboard.css */
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .dashboard-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .student-records-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .student-records-table th,
+  .student-records-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .student-records-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .csv-import-container {
+    margin-bottom: 20px;
+  }
+  
+  .csv-import-container input[type="file"] {
+    display: none;
+  }
+  
+  .csv-import-container label {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .csv-import-container label:hover {
+    background-color: #0056b3;
+  }
+  
