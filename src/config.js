@@ -1,4 +1,4 @@
 // config.js
-const backendUrl = 'https://sleepy-lime-slip.cyclic.app'; // Change this to your backend URL
+const backendUrl = 'https://hilarious-leg-warmers-lion.cyclic.app';
 
 export default backendUrl;
